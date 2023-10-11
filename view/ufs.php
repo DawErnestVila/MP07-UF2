@@ -42,7 +42,7 @@ if (!isset($_SESSION)) session_start();
                 <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="For ex. UF de nose" name="nom_uf">
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlInput5" class="form-label">Número UF</label>
+                <label for="exampleFormControlInput5" class="form-label">Hores UF</label>
                 <input type="number" class="form-control" id="exampleFormControlInput5" placeholder="For ex. 120" name="hores_uf">
             </div>
             <button class="btn btn-primary mt-2" type="submit" name="sub_desa_uf">Desa!</button>

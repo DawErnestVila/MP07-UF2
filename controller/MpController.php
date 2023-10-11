@@ -1,7 +1,10 @@
 <?php
 include_once('../model/Mp.php');
-include_once('./fun/functions.php');
+include_once('../model/Uf.php');
+
 if (!isset($_SESSION)) session_start();
+
+include_once('./fun/functions.php');
 
 
 if (isset($_POST['sub_desa_mp'])) {

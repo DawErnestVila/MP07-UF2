@@ -1,8 +1,9 @@
 <?php
 include('../model/Mp.php');
 include('../model/Uf.php');
-include_once('./fun/functions.php');
 if (!isset($_SESSION)) session_start();
+include_once('./fun/functions.php');
+
 
 if (isset($_POST['sub_desa_uf'])) {
     $numMp = $_POST['mp_sel'];
